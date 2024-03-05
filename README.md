@@ -24,7 +24,7 @@ sh ./build.sh
 
 開啟 Lambda Function 的「程式碼」頁籤右上角點「上傳於」>「.zip 檔案」，選擇 `dist/lambda-extractor-for-s3.zip` 即可。
 
-開啟 Lambda Function 的「組態」>「一般組態」>「編輯」，根據平均執行時間長度調整「逾時」時間。
+開啟 Lambda Function 的「組態」>「一般組態」>「編輯」，根據平均執行時間長度調整「記憶體」、「暫時性儲存」和「逾時」時間選項。
 
 ## 本地開發
 
